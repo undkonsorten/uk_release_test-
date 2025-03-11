@@ -1,0 +1,46 @@
+{
+  "name": "undkonsorten/uk-relese-test",
+  "type": "typo3-cms-extension",
+  "description": "Provides a task queue for other extensions to use.",
+  "homepage": "https://www.undkonsorten.com",
+  "authors": [
+    {
+      "name": "Eike Starkmann",
+      "email": "starkmann@undkonsorten.com",
+      "homepage": "http://undkonsorten.com",
+      "role": "Developer"
+    },
+
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "keywords": [
+    "email",
+    "TYPO3"
+  ],
+  "support": {
+    "issues": ""
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": ""
+    }
+  ],
+  "require": {
+  },
+  "suggest": {
+    "typo3/cms-dashboard": "Allows more advanced logging of the application flow"
+  },
+  "autoload": {
+    "psr-4": {
+      "Undkonsorten\\UkReleaseTest\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "uk_release_test"
+    }
+  }
+}
