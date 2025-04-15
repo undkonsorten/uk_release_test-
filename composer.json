@@ -1,7 +1,7 @@
 {
   "name": "undkonsorten/uk-relese-test",
   "type": "typo3-cms-extension",
-  "description": "Provides a task queue for other extensions to use.",
+  "description": "This extension is only for testing the automatically release process for TYPO3 extensions.",
   "homepage": "https://www.undkonsorten.com",
   "authors": [
     {
@@ -21,12 +21,6 @@
   "support": {
     "issues": ""
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": ""
-    }
-  ],
   "require": {
   },
   "suggest": {
