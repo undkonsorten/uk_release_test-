@@ -36,8 +36,6 @@ jobs:
       - name: Get comment
         id: get-comment
         run: |
-          echo "Debugging git tag output:"
-          git tag -n10 -l "${{ env.version }}"
           readonly comment=$(git tag -n10 -l ${{ env.version }} | sed "s/^[0-9.]*[ ]*//g" | sed 's/^[ \t]*//')
 
           if [[ -z "${comment// }" ]]; then
